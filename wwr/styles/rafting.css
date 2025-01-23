@@ -1,0 +1,64 @@
+:root {
+    --main-color: #00BFFF;
+    --secondary-color: #3CDFDF;
+    --accent1-color: #47D680;
+    --accent2-color: #FFEFEF;
+}
+
+body {  
+}
+
+h1 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    border: var(--secondary-color) 5px;
+    color: var(--accent1-color);
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 20px;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+    width: 300px;
+    position: relative;
+}
+
+
+h2 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--accent1-color);
+    padding: 20px;
+    border: var(--secondary-color) 5px;
+}
+
+p {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: var(--accent1-color);
+    padding: 20px;
+    border: var(--secondary-color) 5px;
+}
+
+.sociallinks {
+    text-decoration: none;
+    padding: 20px;
+}
