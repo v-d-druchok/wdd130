@@ -13,24 +13,29 @@ h1 {
     border: var(--secondary-color) 5px;
     color: var(--accent1-color);
     position: absolute;
+    top: 20px; left: 800px;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero {
     position: relative;
     padding: 20px;
 }
 
 article {
     position: absolute;
+    top: 100px; left: 15px;
 }
 
-article img {
+.hero article img {
     float: right;
     width: 300px;
-    position: relative;
+    padding: 10px;
 }
 
 
