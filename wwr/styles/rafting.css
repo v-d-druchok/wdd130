@@ -6,10 +6,6 @@
     --border-color: rgb(75, 40, 8);
 }
 
-* {
-    /* background-color: var(--secondary-color); */
-}
-
 header {
 	margin: 1rem auto;
 	display: grid;
@@ -19,6 +15,25 @@ header {
 	align-items: center;
     background-color: var(--secondary-color);
 	max-width: 1000px;
+}
+
+.employees {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+.imp {
+    padding: 20px;
+}
+
+.emp-profiles {
+    border: 1px solid var(--border-color);
+    width: auto;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .logo img {
@@ -196,7 +211,7 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    background-color: var(--accent1-color);
+    background-color: rgb(7, 48, 7);
     color: rgb(255, 233, 255);
     border: none;
     border-radius: .5rem;
@@ -215,6 +230,11 @@ button:hover {
 .form-item {
     display: grid;
     align-items: center;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
 }
 
 .purpose {
