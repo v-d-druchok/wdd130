@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Volodymyr Druchok">
+    <meta name="description" content="Whitewater Rafting Website Contact Page">
+    <title>Whitewater Rafting Website Contact Page</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.png" alt="Site Logo" width="200">
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a> 
+        </nav>
+    </header>
+    <main>
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+    <h2>Send Us A Message</h2>
+    <p>White Water Rafting</p>
+    <p>Phone: 999-898-8888</p>
+    <p>Email: white-water-rafting@yahoo.com</p>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1108280.1924617153!2d144.82507038586766!3d-39.89169596506845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sca!4v1738897542521!5m2!1suk!2sca" width="1800" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="emp-profiles">
+        <img src="" alt="Employee 1">
+        <img src="" alt="Employee 2">
+        <img src="" alt="Employee 3">
+    </div>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item column2">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div class="form-item column2">
+                <label for="email">Email Adress</label>
+                <input type="text" id="email" name="email">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Questions</legend>            
+            <div class="form-item purpose">
+                <p>What is the purpose of your message?</p>
+                <label for="general">General Inquiry</label>
+                <input type="radio" id="general" name="general">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="reservation" name="reservation">
+                <label for="suggestion">Website Suggestion</label>
+                <input type="radio" id="suggestion" name="suggestion">
+            </div>
+            <div class="form-item feedback">
+                <label for="feedback" class="textarea-label">Write your message to us</label>
+                <textarea id="feedback" name="feedback" rows="8" cols="70" placeholder="Your company sucks, you should like close it down or something..."></textarea>
+            </div>
+
+            <div class="form-item newsletter">
+                <label for="news">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="news" name="news">
+            </div>
+            
+        </fieldset>
+
+        <button type="submit">Send The Message</button>
+    </form>
+    </main>
+    <footer>
+        <p>©2025 | Whitewater Rafting | Volodymyr Druchok</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+              <img src="images/facebook.png" alt="Facebook" width="50">
+            </a>
+            <a href="https://x.com">
+              <img src="images/x.png" alt="Twitter" width="50">
+            </a>
+            <a href="https://instagram.com">
+              <img src="images/instagram.png" alt="Instagram" width="50">
+            </a>
+          </nav>      
+    </footer>
+</body>
+</html>
