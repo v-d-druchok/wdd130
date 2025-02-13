@@ -6,6 +6,10 @@
     --border-color: rgb(75, 40, 8);
 }
 
+body {
+    background-color: #eaffee;
+}
+
 header {
 	margin: 1rem auto;
 	display: grid;
@@ -15,6 +19,7 @@ header {
 	align-items: center;
     background-color: var(--secondary-color);
 	max-width: 1000px;
+    border: 1px solid var(--border-color);
 }
 
 .employees {
@@ -34,6 +39,7 @@ header {
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
+    background-color: var(--secondary-color);
 }
 
 .logo img {
@@ -73,6 +79,20 @@ h1 {
     justify-content: center;
 }
 
+.home {
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    font-size: 5rem;
+    font-style: normal;
+    padding: 20px;
+    color: #28f99e;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -82,13 +102,12 @@ h1 {
 .hero {
     position: relative;
     padding: 20px;
-    
 }
 
 article {
     position: absolute;
     top: 200px; left: 15px;
-    background-color: rgba(255, 255, 255, .7);
+    background-color: #eaffeeaa;
     width: 80%;
     left: 0;
     right: 0;
@@ -114,6 +133,7 @@ h2 {
 
 .contact-info {
     border: 1px solid var(--border-color);
+    background-color: var(--secondary-color);
 }
 
 .contact-info p {
@@ -206,7 +226,7 @@ footer p {
     padding: 20px;
 }
 
-form {
+.contact-form {
     width: 1500px;
     margin: auto;
     padding: 0;
@@ -284,3 +304,70 @@ button:hover {
 .column2 {
     grid-template-columns: 1fr 2fr;
 } 
+
+.contact {
+    display: grid;
+    justify-items: center;
+}
+
+.contact input {
+    color: rgb(255, 233, 255);
+    background-color: rgb(34, 122, 20);
+    border: 0px;
+    width: 150px;
+    height: 50px;
+}
+
+.trip-ex {
+    border: 1px solid var(--border-color);
+    width: auto;
+    height: 250px;
+    padding: 20px;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trip {
+    display: grid;
+    justify-items: center;
+    position: absolute;
+    top: 220px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.trip button {
+    color: rgb(255, 233, 255);
+    background-color: rgb(34, 122, 20);
+    border: 0px;
+    width: 250px;
+    height: 50px;
+}
+
+.aboutus {
+    border: 1px solid var(--border-color);
+    padding: 20px 30px 50px;
+    margin: 50px 0px 50px;
+    display: grid;
+}
+
+.our-purpose {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-items: start;
+    align-items: center;
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    justify-items: start;
+    align-items: center;
+}
+
+.aboutus img {
+    width: 300px;
+    height: auto;
+}
