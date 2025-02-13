@@ -318,14 +318,36 @@ button:hover {
     height: 50px;
 }
 
-.trip-ex {
-    border: 1px solid var(--border-color);
-    width: auto;
-    height: 250px;
-    padding: 20px;
-    margin: 50px 0px;
+.trips-all {
     display: flex;
     justify-content: space-evenly;
+}
+
+.trip-ex {
+    border: 1px solid var(--border-color);
+    padding: 30px 20px 20px;
+    margin: 50px 20px;
+    width: 66%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px 10px;
+}
+
+.trip-ex h2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.trip-ex img {
+    width: 200px;
+    height: fit-content;
+} 
+
+.trip-list {
+    border: 1px solid var(--border-color); 
+    width: 33%;
+    padding: 20px;
+    margin: 50px 20px;
 }
 
 .trip {
