@@ -57,7 +57,10 @@ h1 {
     padding: 20px;
     color: var(--accent1-color);
     position: absolute;
-    top: 20px; left: 800px;
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .hero img {
@@ -69,11 +72,17 @@ h1 {
 .hero {
     position: relative;
     padding: 20px;
+    
 }
 
 article {
     position: absolute;
-    top: 100px; left: 15px;
+    top: 200px; left: 15px;
+    background-color: rgba(255, 255, 255, .7);
+    width: 80%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .hero article img {
@@ -112,10 +121,17 @@ p {
 }
 
 .history {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+    padding: 0px 20px 60px;
+    border: 1px solid var(--border-color);
+    background-color: var(--secondary-color);
+}
+
+.history h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .adventure {	
@@ -124,6 +140,10 @@ p {
     column-gap: 50px;
     justify-content: center;
 	align-items: center;
+    border: 1px solid var(--border-color);
+    padding: 20px 20px 60px;
+    margin-top: 30px;
+    background-color: var(--secondary-color); 
 }
 
 .adventure h2 {
@@ -134,9 +154,14 @@ p {
 }
 
 .adventure img {
-    width: 337px;
+    width: 250px;
     height: auto;
     grid-row-start: 2;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
 }
 
 footer {
@@ -147,6 +172,8 @@ footer {
     justify-content: space-evenly;
 	align-items: center;
 	max-width: 1000px;
+    border: 1px solid var(--border-color);
+    background-color: var(--secondary-color);
 }
 
 footer p {
