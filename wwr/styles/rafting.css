@@ -50,17 +50,27 @@ header a {
     width: 100%;
 }
 
+.about {
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    font-style: normal;
+    padding: 20px;
+    color: #28f99e;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
 h1 {
     font-family: "EB Garamond", serif;
     font-weight: 800;
     font-style: normal;
     padding: 20px;
     color: var(--accent1-color);
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .hero img {
